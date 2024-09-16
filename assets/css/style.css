@@ -69,3 +69,11 @@ button:active {
 .pausado {
   color: #FF3D00;
 }
+
+.zerar {
+  display: none;
+}
+
+.pausar {
+  display: none;
+}
