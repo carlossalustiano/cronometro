@@ -1,65 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-:root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #E5E5E5;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background: var(--primary-color);
-  font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  max-width: 640px;
-  margin: 50px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
+  width: 380px;
+  background-color: #1C1C1C;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-form input, form label, form button {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-form input {
-  font-size: 24px;
-  height: 50px;
-  padding: 0 20px;
-}
-
-form input:focus {
-  outline: 1px solid var(--primary-color);
-}
-
-form button {
-  border: none;
-  background: var(--primary-color);
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  height: 50px;
-  cursor: pointer;
-  margin-top: 30px;
-}
-
-form button:hover {
-  background: var(--primary-color-darker);
-}
 .relogio {
-  font-size: 3em;
+  font-size: 4.8em;
+  color: #F5F5F5;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.boxButton {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+button {
+  flex: 1;
+  height: 50px;
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #555555;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #FF3D00;
+  transform: translateY(0);
 }
 
 .pausado {
-  color: red;
+  color: #FF3D00;
 }
