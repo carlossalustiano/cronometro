@@ -3,7 +3,7 @@
 **Linguagens:** `HTML5`, `CSS3`, `JavaScript`  
 **IDE:** `Visual Studio Code`
 
-[➡️ Acesse o projeto aqui](https://seulinkdoprojeto)
+[➡️ Acesse o projeto aqui](https://carlossalustiano.github.io/cronometro/)
 
 ---
 Um cronômetro simples e funcional, desenvolvido para medir intervalos de tempo com precisão.
